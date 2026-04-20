@@ -1,0 +1,7 @@
+type Query {
+  address(username: String!): Address
+}
+
+type Mutation {
+  saveAddress(username: String!, address: AddressInput!): Address
+}
