@@ -1,4 +1,16 @@
 {
+  "123": {
+    "street": "601 S Tryon",
+    "city": "Charlotte",
+    "zipcode": "286778",
+    "state": "NC"
+  },
+  "1234": {
+    "street": "601 S Tryon",
+    "city": "Charlotte",
+    "zipcode": "28677",
+    "state": "NC"
+  },
   "jack": {
     "street": "123 Street St.",
     "city": "Sometown",

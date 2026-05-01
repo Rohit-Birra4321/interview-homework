@@ -4,9 +4,15 @@
   "scripts": {
     "dev": "ts-node src/server.ts",
     "lint": "eslint . --ext .ts",
-    "test": "DISABLE_DYNAMO=true npx jest --config=./jest.config.ts  --watchAll=false --ci"
+    "test": "DISABLE_DYNAMO=true npx jest --config=./jest.config.ts  --watchAll=false --ci",
+    "mesh:build": "mesh build",
+    "mesh:dev": "mesh dev",
+    "mesh:start": "mesh start"
   },
   "dependencies": {
+    "@graphql-mesh/cli": "^0.86.0",
+    "@graphql-mesh/json-schema": "^0.37.0",
+    "@graphql-mesh/runtime": "^0.46.0",
     "@envelop/core": "^5.3.0",
     "@envelop/parser-cache": "^9.0.0",
     "@envelop/response-cache": "^8.0.0",
